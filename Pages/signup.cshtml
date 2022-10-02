@@ -6,12 +6,11 @@
 
 
 <h1>@ViewData["Title"]</h1>
-
+ 
 <p>If you are new here Signup today.</p>
-
-<form method="POST">
+<form  asp-controller="SignupController" asp-action="Create" method="POST">
 <input class="form-control mb-3" type="text" placeholder="Name"/>
 <input  class="form-control mb-3" type="text" placeholder="Email"/>
 <input  class="form-control mb-3" type="password" placeholder="Password"/>
-<input type="button" class="btn btn-primary" value="Sign Up"/>
+<input type="submit" class="btn btn-primary" value="Sign Up"/>
 </form>
