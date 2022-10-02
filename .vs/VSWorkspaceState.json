@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Models",
-    "\\Pages",
-    "\\Views\\About"
+    "\\Pages"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Pages\\signup.cshtml",
   "PreviewInSolutionExplorer": false
 }
